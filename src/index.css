@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: Poppins, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+a {
+  text-decoration: none;
+}
+
+.photo-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.fixed-image {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+}
